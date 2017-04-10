@@ -85,7 +85,7 @@ export default {
     }
   },
 
-  beforeDestroy (): void {
+  destroyed (): void {
     if (!this._i18n) { return }
 
     if (this._localeWatcher) {
